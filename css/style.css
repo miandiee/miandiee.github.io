@@ -230,6 +230,10 @@ h1 {
 }
 
 @media (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+
   .container-card {
     flex-direction: column;
   }
@@ -271,14 +275,15 @@ h1 {
   .next {
     right: 5px;
   }
-
+  
   .card {
-    width: 400px;
-    height: 500px;
+    margin: 10px auto;
+    width: 330px;
+    height: 520px;
   }
   
   .image-app {
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 230px;
   }
 }
