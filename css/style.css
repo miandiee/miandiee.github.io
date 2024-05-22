@@ -210,8 +210,8 @@ h1 {
 }
 
 .card-header {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -227,4 +227,48 @@ h1 {
   margin: 10px auto;
   padding-left: 12px;
   padding-right: 15px;
+}
+
+@media (max-width: 600px) {
+  .container-card {
+    flex-direction: column;
+  }
+  
+  .judul {
+    letter-spacing: 3px;
+  }
+
+  .intro {
+    width: 80%;
+    max-width: 600px;
+  }
+
+  .button-stg {
+    padding: 5px 5px;
+  }
+
+  .info {
+    letter-spacing: 3px;
+  }
+
+  .slider {
+    max-width: 350px;
+  }
+
+  .text-slider {
+    max-width: 270px;
+    font-size: 16px;
+  }
+
+  .slide {
+    font-size: 18px;
+  }
+
+  .prev {
+    left: 5px;
+  }
+  
+  .next {
+    right: 5px;
+  }
 }
